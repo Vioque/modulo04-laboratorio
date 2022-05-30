@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculadora Básica</title>
+</head>
+<body>
+<header>
+    <h1>Calculadora Básica</h1>
+</header>
+<div>
+    <label>Primer número:</label>
+    <input id="number1" type="number">
+</div>
+<div>
+    <label>Segundo número:</label>
+    <input id="number2" type="number">
+</div>
+<div>
+    <span>Elije operación:</span>
+    <button id="sum" type="button" onclick="sum()">+</button>
+    <button id="rest" type="button" onclick="rest()">-</button>
+    <button id="mult" type="button" onclick="mult()">*</button>
+    <button id="div" type="button" onclick="div()">/</button>
+</div>
+<div>
+    <span>El resultado es:</span>
+    <span id="result"></span>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
